@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Clock</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="clock-container">
+    <div class="clock">
+      <div class="time">
+        <span class="hour">00</span> :
+        <span class="minute">00</span> :
+        <span class="second">00</span>
+      </div>
+      <div class="labels">
+        <span class="label-hour">HOURS</span> :
+        <span class="label-minute">MINS</span> :
+        <span class="label-second">SEC</span>
+      </div>
+    </div>
+  </div>
+  <div class="features">
+    <div class="color-picker">
+      <label for="color1">Color 1:</label>
+      <input type="color" id="color1" value="#0f0c29">
+      <label for="color2">Color 2:</label>
+      <input type="color" id="color2" value="#302b63">
+    </div>
+    <div class="stopwatch">
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+      <button id="reset">Reset</button>
+    </div>
+    <button id="theme-toggle">Toggle Dark/Light Mode</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
